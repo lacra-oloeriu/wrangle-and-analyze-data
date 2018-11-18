@@ -20,7 +20,8 @@ The site has over 6 millions followers and has received international media cove
 
 The site has over 6000+ tweets .I was able to analyzed around 1500+ tweets .The most rated dog was golden retrever whit more than 140 ratings.The secound it was Labrador retriever and the therd Pembroke.The las rated dog eas Cocker spaniel and french bulldog.
 
-
+![golden retrever](./images/Golden_Retriever.jpg "title")
+<!-- Image from: https://en.wikipedia.org/wiki/Golden_Retriever#/media/File:Golden_Retriever_Carlos_(10581910556).jpg -->
 
 ## Lowes average rating among dog types
 
