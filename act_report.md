@@ -1,8 +1,8 @@
-Analyzing and Visualizing WeRateDogs
+# Analyzing and Visualizing WeRateDogs
 
 By Oloeriu Lacramioara
 
-Introduction
+## Introduction
 
 Maybe you heard about one of the most famous meme of 2016 "they're good dogs Brent"and of corse the twitter acount WeRateDogs?
 It was started in 2015 by college student Matt Nelson, and has received international media coverage both for its popularity and for the attention drawn to social media copyright law when it was suspended by Twitter.
@@ -15,14 +15,14 @@ WeRateDogs is a Twitter acount that rates people's dogs whit fun things comments
 The site has over 6 millions followers and has received international media coverege.One of those coverage were about the quote "they're good dogs Brent", that was an exchenge in which WeRateDogs shut down a person having an issue whit its rating system in humoroud ways.
 
 
-Most common dog type
+## Most common dog type
 
 
 The site has over 6000+ tweets .I was able to analyzed around 1500+ tweets .The most rated dog was golden retrever whit more than 140 ratings.The secound it was Labrador retriever and the therd Pembroke.The las rated dog eas Cocker spaniel and french bulldog.
 
 
 
-Lowes average rating among dog types
+## Lowes average rating among dog types
 
 
 Almost all dogs deserve ratings about 10.This is a notable exception that i see in the site.
