@@ -1,10 +1,6 @@
 # Wrangle Report
 
-___
-
 ## Introduction
-
-
 The purpose of this project is to put in practice what I learned in data wrangling
 data section from Udacity Data Analysis Nanodegree program. The dataset that is
 wrangled is the tweet archive of Twitter user @dog_rates, also known
@@ -17,16 +13,13 @@ denominator of 10.
 This report briefly describes my wrangling efforts.
 
 ## Project details
-
 The tasks of this project are as follows:
-
 • Gathering data
 • Assessing data
 • Cleaning data
-
+ Storing, Analyzing, and Visualizing Data
 
 ## Gathering data
-
 The data for this project consist on three different dataset that were obtained as
 following:
 
@@ -40,7 +33,6 @@ This file (image_predictions.tsv) is hosted
 on Udacity's servers and was downloaded programmatically using the
 Requests library and URL information
 
-
 • Twitter API & JSON: 
 by using the tweet IDs in the WeRateDogs Twitter
 archive, I queried the Twitter API for each tweet's JSON data using
@@ -50,11 +42,8 @@ I read this .txt file line by line into a
 pandas dataframe with tweet ID, favorite count, retweet count, followers
 count, friends count, source, retweeted status and url.
 
-
 ## Assessing data
-
 Once the three tables were obtained I assessed the data as following:
-
 
 • Visually, I used two tools. One was by printing the three entire
 dataframes separate in Jupyter Notebook and two by checking the csv
@@ -68,7 +57,6 @@ Key points to keep in mind for this process was that original ratings with image
 were wanted.
 
 ## Cleaning data
-
 This part of the data wrangling was divided in three parts: Define, code and test
 the code. These three steps were on each of the issues described in the assess
 section.
@@ -95,8 +83,28 @@ Udacity review. Using Excel and visual assessment was not sufficient to verify
 those decimals. Therefore, I had to run a code in order to check those actual
 tweets (decimals numerators).
 
-## Conclusion
+## Storing, Analyzing, and Visualizing Data
 
+Insight one & visualization
+
+Golden retriever is the most common dog in this dataset.
+
+![most reated dog type](./images/most_rated_dog_type.png "most reated dog type")
+
+Insight three & visualization
+
+Dog_types with low number of ratings show a high variaty of mean ratings.
+Average Ratings od Dog Type by number og Ratings of Dog Type 
+
+![average rating dog type](./images/average_rating_dog_type.png "average rating dog type")
+
+Insight four & visualization
+
+The highest ratings do not receive the most retweets.
+
+![retweet cownts](./images/retweet_counts.png "retweet cownts")
+
+## Conclusion
 Data wrangling is a core skill that whoever handles data should be familiar with.
 I have used Python programming language and some of its packages. There are
 several advantages of this tool (as compared to e.g. Excel) that is used by many
